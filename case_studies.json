@@ -1,0 +1,157 @@
+{
+    "case_studies": [
+        {
+            "id": "biotech-fpa-planning",
+            "title": "UK Biotech FP&A Planning Rescue",
+            "metadata": {
+                "primary_service": "month_end_close",
+                "industry": "biotech",
+                "company_size": "100m_500m",
+                "timeline": "18_months_plus",
+                "has_run_bundle": true
+            },
+            "problem_triggers": [
+                "planning takes too long",
+                "spreadsheets everywhere",
+                "data scattered",
+                "failed implementation",
+                "no adoption",
+                "manual reconciliations",
+                "FP&A cycle",
+                "forecasting"
+            ],
+            "challenge": {
+                "summary": "Failed planning implementation with zero user adoption. Finance team reverted to fragmented, manual planning across spreadsheets, Google Sheets, Airtable, NetSuite, and HRIS systems.",
+                "pain_points": [
+                    "Data scattered across multiple sources with different aggregation levels",
+                    "Drug discovery projects constantly changing in spreadsheets",
+                    "Actuals (NetSuite) disconnected from forecasts (spreadsheets)",
+                    "FP&A forecasting cycle: 1 week",
+                    "Forecast frequency: Quarterly (too slow)"
+                ]
+            },
+            "solution": {
+                "approach": "Built comprehensive planning solution from scratch with automated integrations.",
+                "components": [
+                    "Drug Discovery Project Planning Model - Hierarchical structure",
+                    "Department Planning by Organizational Units",
+                    "Workforce Planning Model - Active vs open roles",
+                    "Automated Data Integration - NetSuite, HRIS, Airtable",
+                    "Comprehensive Security Model"
+                ]
+            },
+            "results": {
+                "primary_metric": "85% reduction in FP&A cycle time",
+                "secondary_metrics": [
+                    "1 week → 1 day cycle time",
+                    "60+ users adopted (vs. 0 previously)",
+                    "Monthly rolling forecasts (was quarterly)",
+                    "Manual consolidation eliminated"
+                ]
+            },
+            "conversation_hooks": [
+                "Do you also have data scattered across multiple systems?",
+                "How long does your current planning cycle take?",
+                "Have you had failed implementations before?"
+            ]
+        },
+        {
+            "id": "invoice-automation",
+            "title": "Invoice Automation for Global Media Company",
+            "metadata": {
+                "primary_service": "data_integration",
+                "industry": "media",
+                "company_size": "500m_plus",
+                "timeline": "3_months",
+                "has_run_bundle": true
+            },
+            "problem_triggers": [
+                "invoice processing",
+                "manual data entry",
+                "copy-paste",
+                "formatting errors",
+                "consolidation",
+                "accounts payable",
+                "finance operations"
+            ],
+            "challenge": {
+                "summary": "Manual invoice consolidation taking 1 week per quarter with 300-500 invoices.",
+                "pain_points": [
+                    "Invoices from multiple production companies in different formats",
+                    "Manual copy-paste into master template",
+                    "Error-prone formatting and data validation",
+                    "1 week processing time every quarter"
+                ]
+            },
+            "solution": {
+                "approach": "Python-based automation handling entire invoice consolidation and formatting process.",
+                "components": [
+                    "Automated invoice ingestion from multiple sources",
+                    "Data validation and error detection",
+                    "Standardized formatting and consolidation",
+                    "Run Bundle output with full audit trail"
+                ]
+            },
+            "results": {
+                "primary_metric": "90%+ reduction in processing time",
+                "secondary_metrics": [
+                    "1 week → Hours processing time",
+                    "300-500 invoices automated per quarter",
+                    "Error rate dramatically reduced"
+                ]
+            },
+            "conversation_hooks": [
+                "How much time does your team spend on invoice processing?",
+                "Do you have data coming in from multiple sources in different formats?"
+            ]
+        },
+        {
+            "id": "ai-data-assistant",
+            "title": "AI-Powered Data Assistant for Executives",
+            "metadata": {
+                "primary_service": "reporting",
+                "industry": "media",
+                "company_size": "500m_plus",
+                "timeline": "6_months",
+                "has_run_bundle": false
+            },
+            "problem_triggers": [
+                "executives waiting for data",
+                "data requests",
+                "self-service analytics",
+                "decision-making",
+                "slow reports",
+                "natural language",
+                "ad-hoc questions"
+            ],
+            "challenge": {
+                "summary": "Executives waiting hours or days for data requests. Finance team bottleneck on ad-hoc reporting.",
+                "pain_points": [
+                    "Data locked in multiple systems",
+                    "Every data request required analyst intervention",
+                    "Slow response time impacting decision-making"
+                ]
+            },
+            "solution": {
+                "approach": "AI-powered data assistant allowing executives to ask questions in natural language.",
+                "components": [
+                    "Natural language interface for data queries",
+                    "Connected to multiple backend data sources",
+                    "Real-time answers with source attribution"
+                ]
+            },
+            "results": {
+                "primary_metric": "Minutes/hours → Seconds for data requests",
+                "secondary_metrics": [
+                    "Self-service analytics for executives",
+                    "Finance team freed from ad-hoc requests",
+                    "Faster decision-making across organization"
+                ]
+            },
+            "conversation_hooks": [
+                "How quickly can your executives get answers to data questions?",
+                "How much of your team's time is spent on ad-hoc data requests?"
+            ]
+        }
+    ]
+}
