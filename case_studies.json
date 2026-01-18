@@ -37,7 +37,8 @@
                     "Department Planning by Organizational Units",
                     "Workforce Planning Model - Active vs open roles",
                     "Automated Data Integration - NetSuite, HRIS, Airtable",
-                    "Comprehensive Security Model"
+                    "Comprehensive Security Model",
+                    "Run Bundle audit package for every automated data flow"
                 ]
             },
             "results": {
@@ -151,6 +152,112 @@
             "conversation_hooks": [
                 "How quickly can your executives get answers to data questions?",
                 "How much of your team's time is spent on ad-hoc data requests?"
+            ]
+        },
+        {
+            "id": "professional-services-close",
+            "title": "Professional Services Month-End Close Acceleration",
+            "metadata": {
+                "primary_service": "month_end_close",
+                "industry": "professional_services",
+                "company_size": "50m_100m",
+                "timeline": "6_months",
+                "has_run_bundle": true
+            },
+            "problem_triggers": [
+                "month-end takes too long",
+                "close cycle slow",
+                "manual journal entries",
+                "spreadsheet reconciliations",
+                "working weekends",
+                "close process painful",
+                "auditors asking questions"
+            ],
+            "challenge": {
+                "summary": "Month-end close taking 12 business days with manual journal entries and spreadsheet reconciliations.",
+                "pain_points": [
+                    "12 business days to complete month-end close",
+                    "15+ manual journal entries per cycle",
+                    "40+ hours of manual reconciliation work",
+                    "Controller and team working weekends regularly"
+                ]
+            },
+            "solution": {
+                "approach": "Automated close workflow with standardized processes and real-time visibility.",
+                "components": [
+                    "Automated journal entry templates with validation rules",
+                    "Cross-system reconciliation engine",
+                    "Close progress dashboard with task tracking",
+                    "Exception-based review workflow",
+                    "Run Bundle audit package for every close cycle"
+                ]
+            },
+            "results": {
+                "primary_metric": "75% reduction in close time (12 days → 3 days)",
+                "secondary_metrics": [
+                    "12 business days → 3 business days",
+                    "Manual reconciliation: 40+ hours → 8 hours",
+                    "Post-close adjustments: Near zero",
+                    "Weekend work eliminated"
+                ]
+            },
+            "conversation_hooks": [
+                "How many business days does your month-end close currently take?",
+                "Does your team have to work weekends during close?",
+                "How much time do you spend on reconciliations each month?"
+            ]
+        },
+        {
+            "id": "pharma-regulatory-reporting",
+            "title": "Pharma Regulatory Reporting Automation",
+            "metadata": {
+                "primary_service": "reporting",
+                "industry": "pharma",
+                "company_size": "200m_500m",
+                "timeline": "4_months",
+                "has_run_bundle": true
+            },
+            "problem_triggers": [
+                "regulatory reporting",
+                "compliance deadlines",
+                "audit trail missing",
+                "auditors asking questions",
+                "manual report generation",
+                "multi-format reports",
+                "submission deadlines"
+            ],
+            "challenge": {
+                "summary": "Monthly regulatory reports for multiple jurisdictions requiring 3-4 days of manual preparation with no audit trail.",
+                "pain_points": [
+                    "5 different regulatory report formats required monthly",
+                    "3-4 days spent on manual data extraction and validation",
+                    "No audit trail showing when data was pulled or transformed",
+                    "High-stress deadline pressure"
+                ]
+            },
+            "solution": {
+                "approach": "Automated regulatory reporting pipeline with complete audit trail at every step.",
+                "components": [
+                    "Automated data extraction from ERP and subledgers",
+                    "Validation rules engine",
+                    "Multi-format output generator",
+                    "Submission-ready packages with documentation",
+                    "Run Bundle with complete traceability"
+                ]
+            },
+            "results": {
+                "primary_metric": "80% reduction in report preparation time (4 days → 8 hours)",
+                "secondary_metrics": [
+                    "Preparation time: 4 days → 8 hours",
+                    "Audit documentation: 100% complete, automated",
+                    "Error rate: Near zero",
+                    "3+ analyst days freed per month"
+                ]
+            },
+            "conversation_hooks": [
+                "How much time does your team spend on regulatory report preparation?",
+                "When auditors ask for documentation, how long does it take to produce?",
+                "Do you ever worry about missing a submission deadline?"
             ]
         }
     ]
